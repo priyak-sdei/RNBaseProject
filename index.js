@@ -18,6 +18,7 @@ Navigation.registerComponent('App', () => App);
 //           {
 //             component: {
 //               name: 'ClassExample',
+//              passProps:{}
 //             },
 //           },
 //         ],
@@ -37,6 +38,7 @@ Navigation.events().registerAppLaunchedListener(async () => {
                 {
                   component: {
                     name: 'App',
+
                     options: {
                       bottomTab: {
                         text: 'App',
