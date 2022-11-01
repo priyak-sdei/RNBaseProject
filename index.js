@@ -14,7 +14,7 @@ Navigation.events().registerAppLaunchedListener(() => {
         children: [
           {
             component: {
-              name: 'AddToDo',
+              name: 'Graph',
               passProps: {},
             },
           },
